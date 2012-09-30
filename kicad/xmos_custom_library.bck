@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 13 Mar 2012 19:31:35 GMT
+EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 19:49:46
 #
 $CMP +1V0
 D +1V0
@@ -54,6 +54,11 @@ K CLK
 F C:/Users/Jake/Downloads/xmos/ASEseries.pdf
 $ENDCMP
 #
+$CMP CONN_20X2
+D PCIe 36 way header
+K PCIe 36way
+$ENDCMP
+#
 $CMP DIODE_SCH
 D Diode schottky rated 2A
 K DFLS240L
@@ -61,6 +66,11 @@ F C:/Users/Jake/Downloads/xmos/ds30516.pdf
 $ENDCMP
 #
 $CMP DRAM-2MX16X4
+D 2Mx16x4 SDRAM, 54-pin TSOP-II Package
+K DRAM
+$ENDCMP
+#
+$CMP DRAM-4MX16X4
 D 2Mx16x4 SDRAM, 54-pin TSOP-II Package
 K DRAM
 $ENDCMP

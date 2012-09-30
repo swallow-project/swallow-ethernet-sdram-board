@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 29/09/2012 20:57:41
+EESchema Schematic File Version 2  date 30/09/2012 20:10:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "29 sep 2012"
+Date "30 sep 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 4650 6250 2    60   BiDi ~ 0
+P1F
+Text HLabel 4650 7150 2    60   BiDi ~ 0
+P1G
+Text HLabel 4650 7050 2    60   BiDi ~ 0
+P4C3
+Text HLabel 4650 6950 2    60   BiDi ~ 0
+P4C2
+Text HLabel 4650 6850 2    60   BiDi ~ 0
+P4D3
+Text HLabel 4650 6750 2    60   BiDi ~ 0
+P4D2
+Text HLabel 4650 6650 2    60   BiDi ~ 0
+P4D1
+Text HLabel 4650 6550 2    60   BiDi ~ 0
+P4D0
+Text HLabel 4650 6450 2    60   BiDi ~ 0
+P4C1
+Text HLabel 4650 6350 2    60   BiDi ~ 0
+P4C0
 Connection ~ 2800 3850
 Wire Wire Line
 	2800 3850 2800 3750
@@ -454,12 +474,6 @@ F 1 "GND" H 5400 2630 30  0001 C CNN
 $EndComp
 Text HLabel 4650 5450 2    60   BiDi ~ 0
 P4B1
-Text HLabel 4650 7150 2    60   Input ~ 0
-XLB4i
-Text HLabel 4650 6250 2    60   Output ~ 0
-XLB4o
-Text HLabel 4650 6350 2    60   Output ~ 0
-XLB3o
 Text HLabel 4650 5150 2    60   BiDi ~ 0
 P4A0
 Text HLabel 4450 7450 2    60   BiDi ~ 0
@@ -734,26 +748,26 @@ Text HLabel 8100 6000 2    60   Output ~ 0
 XLD3o
 Text HLabel 8100 5900 2    60   Output ~ 0
 XLD4o
-Text HLabel 8100 5800 2    60   BiDi ~ 0
-P32A9
-Text HLabel 8100 5700 2    60   BiDi ~ 0
-P32A8
-Text HLabel 8100 5600 2    60   BiDi ~ 0
-P32A7
-Text HLabel 8100 5500 2    60   BiDi ~ 0
-P32A6
-Text HLabel 8100 5400 2    60   BiDi ~ 0
-P32A5
-Text HLabel 8100 5300 2    60   BiDi ~ 0
-P32A4
-Text HLabel 8100 5200 2    60   BiDi ~ 0
-P32A3
-Text HLabel 8100 5100 2    60   BiDi ~ 0
-P32A2
-Text HLabel 8100 5000 2    60   BiDi ~ 0
-P32A1
-Text HLabel 8100 4900 2    60   BiDi ~ 0
-P32A0
+Text HLabel 8100 5800 2    60   Input ~ 0
+XLC4i
+Text HLabel 8100 5700 2    60   Input ~ 0
+XLC3i
+Text HLabel 8100 5600 2    60   Input ~ 0
+XLC2i
+Text HLabel 8100 5500 2    60   Input ~ 0
+XLC1i
+Text HLabel 8100 5400 2    60   Input ~ 0
+XLC0i
+Text HLabel 8100 5300 2    60   Output ~ 0
+XLC0o
+Text HLabel 8100 5200 2    60   Output ~ 0
+XLC1o
+Text HLabel 8100 5100 2    60   Output ~ 0
+XLC2o
+Text HLabel 8100 5000 2    60   Output ~ 0
+XLC3o
+Text HLabel 8100 4900 2    60   Output ~ 0
+XLC4o
 Text HLabel 4650 5250 2    60   BiDi ~ 0
 P4A1
 Text HLabel 4650 5350 2    60   BiDi ~ 0
@@ -798,20 +812,6 @@ Text HLabel 6550 5600 2    60   BiDi ~ 0
 P8C5
 Text HLabel 6550 5500 2    60   BiDi ~ 0
 P8C4
-Text HLabel 4650 6750 2    60   Input ~ 0
-XLB0i
-Text HLabel 4650 6850 2    60   Input ~ 0
-XLB1i
-Text HLabel 4650 6950 2    60   Input ~ 0
-XLB2i
-Text HLabel 4650 7050 2    60   Input ~ 0
-XLB3i
-Text HLabel 4650 6650 2    60   Output ~ 0
-XLB0o
-Text HLabel 4650 6550 2    60   Output ~ 0
-XLB1o
-Text HLabel 4650 6450 2    60   Output ~ 0
-XLB2o
 $Comp
 L GND #PWR082
 U 1 1 4ECE33A4
