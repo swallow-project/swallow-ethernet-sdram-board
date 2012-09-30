@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 19:49:46
+EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 19:50:05
 #
 $CMP +1V0
 D +1V0
@@ -55,6 +55,11 @@ F C:/Users/Jake/Downloads/xmos/ASEseries.pdf
 $ENDCMP
 #
 $CMP CONN_20X2
+D PCIe 36 way header
+K PCIe 36way
+$ENDCMP
+#
+$CMP CONN_PCIe-36
 D PCIe 36 way header
 K PCIe 36way
 $ENDCMP
