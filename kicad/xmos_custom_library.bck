@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 19:50:05
+EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 20:58:52
 #
 $CMP +1V0
 D +1V0
@@ -52,6 +52,11 @@ $CMP ASE_CLK
 D 3.3Vdc CMOS SMD CRYSTAL CLOCK OSCILLATOR
 K CLK
 F C:/Users/Jake/Downloads/xmos/ASEseries.pdf
+$ENDCMP
+#
+$CMP C_ARRAYX4
+D Capacitor Array 4 way
+K C array 4way
 $ENDCMP
 #
 $CMP CONN_20X2
