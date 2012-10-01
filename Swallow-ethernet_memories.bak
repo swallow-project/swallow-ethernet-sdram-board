@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 01/10/2012 15:04:00
+EESchema Schematic File Version 2  date 01/10/2012 17:32:52
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,10 +53,10 @@ U 4F5A264B
 F0 "XS1-L1-128-ports" 60
 F1 "Swallow-ethernet_XS1-L1-128-ports.sch" 60
 F2 "P1J" B L 4450 5600 60 
-F3 "P1I" B L 4450 5450 60 
+F3 "P1I" B L 4450 5750 60 
 F4 "P1H" B L 4450 5900 60 
-F5 "P1L" B L 4450 5750 60 
-F6 "P1K" B L 4450 4900 60 
+F5 "P1L" B L 4450 4900 60 
+F6 "P1K" B L 4450 5450 60 
 F7 "DEBUG" B R 6300 7250 60 
 F8 "RST_N" I R 6300 7350 60 
 F9 "TCK" I R 6300 7050 60 

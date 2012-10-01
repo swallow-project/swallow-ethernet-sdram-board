@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 01/10/2012 15:05:54
+EESchema Schematic File Version 2  date 01/10/2012 17:33:27
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -875,7 +875,7 @@ F 0 "U3" V 5760 2310 60  0000 C CNN
 F 1 "33R" H 5550 2490 60  0000 C CNN
 F 2 "YC124-JR" H 5550 2590 60  0001 C CNN
 	1    5510 2310
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_30 P2
