@@ -1,4 +1,4 @@
-update=29/09/2012 20:58:40
+update=Tue 02 Oct 2012 00:25:57 BST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -108,3 +108,8 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=kicad/footprints/xmos_custom_footprints
+LibName12=kicad/footprints/u_logos
+LibName13=kicad/footprints/UoB_Logo-sm-20
+LibName14=kicad/footprints/project-word
+LibName15=kicad/footprints/project-word-50pt
+LibName16=kicad/footprints/swallow-complex.emp
