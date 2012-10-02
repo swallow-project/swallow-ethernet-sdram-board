@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon 01 Oct 2012 22:10:01 BST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Tue 02 Oct 2012 10:51:31 BST
 
 BeginCmp
 TimeStamp = /4ED01176;
@@ -116,14 +116,14 @@ BeginCmp
 TimeStamp = /4ED15E7E/4ED15EDD;
 Reference = C17;
 ValeurCmp = 10u;
-IdModule  = SM0805;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED15E7E/4ED16055;
 Reference = C18;
 ValeurCmp = 10u;
-IdModule  = SM0805;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -157,21 +157,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4ED15E7E/4EDA724A;
 Reference = C23;
-ValeurCmp = 100p;
-IdModule  = SM0402;
+ValeurCmp = 100n;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BDEED;
 Reference = D1;
-ValeurCmp = L1_LED1;
+ValeurCmp = MEM_LED;
 IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BE36B;
 Reference = D2;
-ValeurCmp = L1_LED2;
+ValeurCmp = L1_LED;
 IdModule  = X_LED-0603;
 EndCmp
 
@@ -250,6 +250,20 @@ TimeStamp = /4ED15E7E/4EE0EDB3;
 Reference = P7;
 ValeurCmp = +5V_In;
 IdModule  = Power-1.3mm-throughole-FC68145;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5A2605/506AAD91;
+Reference = P8;
+ValeurCmp = PCIe_extra;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5A2605/506AAE17;
+Reference = P9;
+ValeurCmp = RESET_N;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
