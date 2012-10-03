@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/09/2012 20:58:52
+EESchema-DOCLIB  Version 2.0  Date: Wed 03 Oct 2012 23:13:45 BST
 #
 $CMP +1V0
 D +1V0
@@ -59,12 +59,17 @@ D Capacitor Array 4 way
 K C array 4way
 $ENDCMP
 #
+$CMP CONN_16
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
 $CMP CONN_20X2
 D PCIe 36 way header
 K PCIe 36way
 $ENDCMP
 #
-$CMP CONN_PCIe-36
+$CMP CONN_PCIE-36
 D PCIe 36 way header
 K PCIe 36way
 $ENDCMP

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 01/10/2012 01:29:12
+EESchema-DOCLIB  Version 2.0  Date: Wed 03 Oct 2012 23:13:54 BST
 #
 $CMP +1V0
 D +1V0
@@ -57,6 +57,11 @@ $ENDCMP
 $CMP C_ARRAYX4
 D Capacitor Array 4 way
 K C array 4way
+$ENDCMP
+#
+$CMP CONN_16
+D Symbole general de connexion
+K CONN
 $ENDCMP
 #
 $CMP CONN_20X2
