@@ -1,5 +1,33 @@
-# EESchema Netlist Version 1.1 created  Thu 04 Oct 2012 00:13:50 BST
+# EESchema Netlist Version 1.1 created  Thu 04 Oct 2012 11:28:49 BST
 (
+ ( /506D643E $noname  P11 CONN_8 {Lib=CONN_8}
+  (    1 N-000069 )
+  (    2 N-000067 )
+  (    3 N-000065 )
+  (    4 N-000063 )
+  (    5 /RST_N_L )
+  (    6 /TRST_N_L )
+  (    7 ? )
+  (    8 GND )
+ )
+ ( /506D60B9 $noname  U15 74LCX257 {Lib=74LCX257}
+  (    1 ? )
+  (    2 /XLC0o )
+  (    3 /XLD0o )
+  (    4 ? )
+  (    5 /XLC1o )
+  (    6 /XLD1o )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 /Swallow-ethernet_memories/XLD0i )
+  (   11 /Swallow-ethernet_memories/XLC0i )
+  (   12 ? )
+  (   13 /Swallow-ethernet_memories/XLD1i )
+  (   14 /Swallow-ethernet_memories/XLC1i )
+  (   15 ? )
+  (   16 ? )
+ )
  ( /506CBC47 $noname  P10 CONN_14 {Lib=CONN_14}
   (    1 /TMS_BL-GND_BR )
   (    2 /GND_BL-TDO_BR )
@@ -43,17 +71,17 @@
   (   24 GND )
   (   25 /XLD0o )
   (   26 /XLD1o )
-  (   27 N-000017 )
+  (   27 N-000026 )
   (   28 N-000046 )
-  (   29 N-000015 )
+  (   29 N-000029 )
   (   30 GND )
  )
  ( /506A05EE X_LED-0603  D4 RESET {Lib=LED}
   (    1 +3.3V )
-  (    2 N-000014 )
+  (    2 N-000018 )
  )
  ( /506A05DA X_LED-0603  D3 POWER_OK {Lib=LED}
-  (    1 N-000013 )
+  (    1 N-000019 )
   (    2 GND )
  )
  ( /506A04F3 $noname  U14 82R {Lib=YC124}
@@ -61,10 +89,10 @@
   (    2 /Swallow-ethernet_memories/GPIO2 )
   (    3 +3.3V )
   (    4 RESET_N )
-  (    5 N-000014 )
-  (    6 N-000013 )
-  (    7 N-000024 )
-  (    8 N-000025 )
+  (    5 N-000018 )
+  (    6 N-000019 )
+  (    7 N-000021 )
+  (    8 N-000022 )
  )
  ( /4F5FB39C YC124-JR  U7 4k7 {Lib=YC124}
   (    1 MODE3 )
@@ -93,11 +121,11 @@
   (    8 /MODE_SEL_XTAG )
  )
  ( /4F5BE36B X_LED-0603  D2 L1_LED {Lib=LED}
-  (    1 N-000024 )
+  (    1 N-000021 )
   (    2 GND )
  )
  ( /4F5BDEED X_LED-0603  D1 MEM_LED {Lib=LED}
-  (    1 N-000025 )
+  (    1 N-000022 )
   (    2 GND )
  )
  ( /4F5BD941 SIL-2  P4 Mode_Select {Lib=CONN_2}
@@ -118,7 +146,7 @@
  ( /4F5BA126 YC124-JR  U4 33R {Lib=YC124}
   (    1 /XLD0o )
   (    2 /XLD1o )
-  (    3 N-000017 )
+  (    3 N-000026 )
   (    4 N-000046 )
   (    5 /Swallow-ethernet_memories/XLD3o )
   (    6 /Swallow-ethernet_memories/XLD2o )
@@ -127,10 +155,10 @@
  )
  ( /4F5BA124 SM0402  R2 33R {Lib=R}
   (    1 /Swallow-ethernet_memories/XLD4o )
-  (    2 N-000015 )
+  (    2 N-000029 )
  )
  ( /4F5BA11F SM0402  R1 33R {Lib=R}
-  (    1 N-000068 )
+  (    1 N-000060 )
   (    2 /Swallow-ethernet_memories/XLC4o )
  )
  ( /4F5BA11A YC124-JR  U3 33R {Lib=YC124}
@@ -138,8 +166,8 @@
   (    2 /Swallow-ethernet_memories/XLC1o )
   (    3 /Swallow-ethernet_memories/XLC2o )
   (    4 /Swallow-ethernet_memories/XLC3o )
-  (    5 N-000066 )
-  (    6 N-000064 )
+  (    5 N-000072 )
+  (    6 N-000073 )
   (    7 /XLC1o )
   (    8 /XLC0o )
  )
@@ -154,9 +182,9 @@
   (    8 GND )
   (    9 /XLC0o )
   (   10 /XLC1o )
-  (   11 N-000064 )
-  (   12 N-000066 )
-  (   13 N-000068 )
+  (   11 N-000073 )
+  (   12 N-000072 )
+  (   13 N-000060 )
   (   14 GND )
   (   15 ? )
   (   16 GND )
@@ -167,22 +195,22 @@
   (   21 ? )
   (   22 ? )
   (   23 ? )
-  (   24 ? )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
-  (   29 ? )
+  (   24 /TRST_N_L )
+  (   25 /RST_N_L )
+  (   26 N-000063 )
+  (   27 N-000065 )
+  (   28 N-000067 )
+  (   29 N-000069 )
   (   30 ? )
  )
  ( /4F5B932E TestPad-1mm  W2 CLK {Lib=TESTPOINT}
   (    1 CLK )
  )
  ( /4F5B92F8 TestPad-1mm  W1 CLK_EN {Lib=TESTPOINT}
-  (    1 N-000048 )
+  (    1 N-000037 )
  )
  ( /4F5B928E ASEseries  U1 25MHz_ASE_CLK {Lib=ASE_CLK}
-  (    1 N-000048 )
+  (    1 N-000037 )
   (    2 GND )
   (    3 CLK )
   (    4 +3.3V )
@@ -209,19 +237,19 @@
   (    3 /MODE_SEL_XTAG )
   (    4 GND )
   (    5 /Swallow-ethernet_memories/TDI )
-  (    6 /XLD1o )
+  (    6 ? )
   (    7 /Swallow-ethernet_memories/TMS )
   (    8 GND )
   (    9 /Swallow-ethernet_memories/TCK )
-  (   10 /XLD0o )
+  (   10 ? )
   (   11 /DEBUG_XTAG )
   (   12 GND )
   (   13 /Swallow-ethernet_memories/TDO )
-  (   14 /Swallow-ethernet_memories/XLD0i )
+  (   14 ? )
   (   15 /RESET_N_XTAG )
   (   16 GND )
   (   17 ? )
-  (   18 /Swallow-ethernet_memories/XLD1i )
+  (   18 ? )
   (   19 ? )
   (   20 GND )
  )
@@ -234,8 +262,8 @@
   (    2 GND )
  )
  ( /4F5A2605/506AAD91 $noname  P8 PCIe_extra {Lib=CONN_2}
-  (    1 N-000139 )
-  (    2 N-000107 )
+  (    1 N-000152 )
+  (    2 N-000120 )
  )
  ( /4F5A2605/50688658 $noname  P5 Ethernet_Slice {Lib=CONN_PCIE-36}
   (   A1 ? )
@@ -272,8 +300,8 @@
   (  B14 CLK )
   (  B15 /4F5A2605/4F5A264B/P1K )
   (  B16 GND )
-  (  B17 N-000139 )
-  (  B18 N-000107 )
+  (  B17 N-000152 )
+  (  B18 N-000120 )
  )
  ( /4F5A2605/4F5B61BC SM0603  C4 100n {Lib=C}
   (    1 GND )
@@ -391,10 +419,10 @@
  )
  ( /4F5A2605/4F5A264B/4ECE3E9B SM0402  R5 4R7 {Lib=R}
   (    1 VDD )
-  (    2 N-000160 )
+  (    2 N-000173 )
  )
  ( /4F5A2605/4F5A264B/4ECE3E71 SM0603  C6 100n {Lib=C}
-  (    1 N-000160 )
+  (    1 N-000173 )
   (    2 GND )
  )
  ( /4F5A2605/4F5A264B/4ECE31E2 XMOS_X1-L1_128TQFP  U10 XS1-L1-128 {Lib=XS1-L1-128}
@@ -445,7 +473,7 @@
   (   45 +3.3V )
   (   46 ? )
   (   47 GND )
-  (   48 N-000160 )
+  (   48 N-000173 )
   (   49 VDD )
   (   50 +3.3V )
   (   51 GND )
@@ -559,7 +587,7 @@
   (    3 GND )
  )
  ( /4ED15E7E/4EDA724A SM0402  C23 100n {Lib=C}
-  (    1 N-000088 )
+  (    1 N-000101 )
   (    2 GND )
  )
  ( /4ED15E7E/4EDA70F3 TSOP-5  U13 NCP303LSN09T1G {Lib=NCP303}
@@ -567,7 +595,7 @@
   (    2 VDD )
   (    3 GND )
   (    4 ? )
-  (    5 N-000088 )
+  (    5 N-000101 )
  )
  ( /4ED15E7E/4ED16424 TSOP-5  U12 NCP1529 {Lib=NCP1529}
   (    1 +3.3V )
@@ -634,6 +662,10 @@
 )
 *
 { Allowed footprints by component:
+$component U15
+ TSSOP16
+ SOIC16
+$endlist
 $component D4
  LED-3MM
  LED-5MM
@@ -843,570 +875,593 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/MODE_SEL" "MODE_SEL"
- U5 1
- U5 3
-Net 2 "MODE3" "MODE3"
- W5 1
- U10 55
- U7 1
- U5 4
-Net 3 "/Swallow-ethernet_memories/TDO" "TDO"
- U10 63
- P1 13
-Net 4 "/Swallow-ethernet_memories/TDI" "TDI"
- U10 62
- P1 5
-Net 5 "/RST_N_BL_BR" "RST_N_BL_BR"
- P10 5
- P3 6
-Net 6 "/TRST_N_BL-GND_BR" "TRST_N_BL-GND_BR"
- P3 7
- P10 6
-Net 7 "DEBUG" "DEBUG"
- U7 3
- U10 42
- U6 4
-Net 8 "/Swallow-ethernet_memories/TCK" "TCK"
- P1 9
- U2 6
- U10 61
-Net 9 "/Swallow-ethernet_memories/TMS" "TMS"
- U2 7
- P1 7
- U10 58
-Net 10 "RESET_N" "RESET_N"
- U6 6
- U13 1
- U10 56
- U10 21
- P9 1
- W13 1
- P5 A16
- U14 4
- U7 4
-Net 11 "/Swallow-ethernet_memories/XLD3i" "XLD3i"
- P3 19
- U10 114
-Net 12 "/Swallow-ethernet_memories/XLD0i" "XLD0i"
- P3 22
- P1 14
- U10 121
-Net 13 "" ""
- D3 1
- U14 6
-Net 14 "" ""
- U14 5
- D4 2
-Net 15 "" ""
- R2 2
- P3 29
-Net 16 "/Swallow-ethernet_memories/XLD4i" "XLD4i"
- P3 18
- U10 112
-Net 17 "" ""
- U4 3
- P3 27
-Net 19 "/RESET_N_XTAG" "RESET_N_XTAG"
- P1 15
- U2 5
-Net 20 "/Swallow-ethernet_memories/GPIO1" "GPIO1"
+Net 1 "/Swallow-ethernet_memories/GPIO1" "GPIO1"
+ W3 1
  U14 1
  U10 28
- W3 1
-Net 21 "/Swallow-ethernet_memories/GPIO2" "GPIO2"
- U14 2
- U10 37
- U8 2
- W4 1
-Net 22 "/Swallow-ethernet_memories/XLD1i" "XLD1i"
- U10 119
+Net 2 "/Swallow-ethernet_memories/TCK" "TCK"
+ U2 6
+ P1 9
+ U10 61
+Net 3 "/MODE_SEL_XTAG" "MODE_SEL_XTAG"
+ U2 8
+ P1 3
+ C2 2
+Net 4 "/Swallow-ethernet_memories/XLD1i" "XLD1i"
  P3 21
- P1 18
-Net 23 "/XLD0o" "XLD0o"
- U4 1
- P3 25
- P1 10
-Net 24 "" ""
- U14 7
- D2 1
-Net 25 "" ""
- D1 1
- U14 8
-Net 26 "MODE2" "MODE2"
- U5 6
- U10 53
- P4 2
- U7 2
-Net 31 "GND" "GND"
- C5 1
- C4 1
- P9 2
- U9 28
- P5 B3
- P5 A14
- P5 A10
- P5 B8
- C17 2
- U11 2
- U10 47
- U10 57
- U10 78
+ U10 119
+ U15 13
+Net 5 "/Swallow-ethernet_memories/XLD0i" "XLD0i"
+ P3 22
+ U15 10
+ U10 121
+Net 6 "/MODE_SEL" "MODE_SEL"
+ U5 1
+ U5 3
+Net 7 "/Swallow-ethernet_memories/XLD2i" "XLD2i"
+ U10 117
+ P3 20
+Net 8 "GND" "GND"
  U10 88
- U12 2
- U13 3
- C23 2
- P7 3
+ C9 2
+ U9 41
+ U9 12
+ U9 52
+ P2 8
+ P2 7
+ P2 1
+ C10 2
  U10 43
  U10 92
  U10 91
  U10 71
- U8 4
  U10 41
- C22 2
- C21 2
- U10 51
- P6 2
- U10 54
- U10 65
+ U10 80
+ U9 28
+ U10 60
+ C6 2
+ U10 40
+ P4 1
  U10 66
  U10 17
- R6 2
- U9 6
- U9 46
- U9 54
- P5 B16
- U10 129
- U10 116
- C18 2
- U10 80
- U10 99
- R7 2
- U10 60
- U10 40
- U9 41
- U10 39
- U9 12
- U9 52
- P2 14
- P2 8
- P2 7
- P2 16
- U1 2
- P2 1
- P1 4
- C3 2
- P1 8
- P1 20
- P1 12
- C15 2
- C14 2
- C13 2
- C12 2
- D3 2
- C10 2
- D1 2
- P4 1
- C9 2
- C8 2
- U5 2
- C7 2
- P1 16
- C1 2
- U6 2
- C16 2
- C2 1
- C11 2
+ P11 8
  D2 2
- P3 30
- P3 23
- P3 24
- P3 15
- P3 17
- C6 2
+ U10 51
+ U10 54
+ U10 65
+ D1 2
+ C11 2
+ C16 2
+ P6 2
+ C7 2
+ U12 2
+ U13 3
+ C23 2
+ P7 3
+ U10 47
+ C8 2
+ U10 57
+ U8 4
+ U10 78
+ R7 2
+ C18 2
+ U11 2
+ C17 2
+ R6 2
+ C21 2
+ C22 2
+ U1 2
+ C2 1
+ P9 2
+ U6 2
+ C4 1
+ C1 2
+ P1 16
+ P1 12
+ P1 20
+ U5 2
+ P1 8
+ C13 2
+ U9 6
+ C14 2
+ D3 2
  P10 14
-Net 32 "/DEBUG_XTAG" "DEBUG_XTAG"
- P1 11
- U6 3
-Net 33 "/Swallow-ethernet_memories/XLC2i" "XLC2i"
- P2 4
- U10 33
-Net 34 "/Swallow-ethernet_memories/XLC3i" "XLC3i"
- U10 35
- P2 3
-Net 35 "/Swallow-ethernet_memories/XLC4i" "XLC4i"
- P2 2
- U10 38
-Net 36 "/Swallow-ethernet_memories/XLC3o" "XLC3o"
- U10 6
- U3 4
-Net 37 "/Swallow-ethernet_memories/XLC2o" "XLC2o"
- U3 3
- U10 8
-Net 38 "/Swallow-ethernet_memories/XLC1o" "XLC1o"
- U10 9
- U3 2
-Net 39 "/Swallow-ethernet_memories/XLC0o" "XLC0o"
- U10 11
- U3 1
-Net 40 "/Swallow-ethernet_memories/XLC4o" "XLC4o"
- R1 2
- U10 4
-Net 41 "/Swallow-ethernet_memories/XLD4o" "XLD4o"
- U10 3
- R2 1
-Net 42 "/Swallow-ethernet_memories/XLD0o" "XLD0o"
- U4 8
- U10 122
-Net 43 "/Swallow-ethernet_memories/XLD1o" "XLD1o"
- U10 124
- U4 7
-Net 44 "/Swallow-ethernet_memories/XLD2o" "XLD2o"
- U10 125
- U4 6
-Net 45 "/Swallow-ethernet_memories/XLD3o" "XLD3o"
- U10 127
- U4 5
-Net 46 "" ""
- P3 28
- U4 4
-Net 47 "/XLD1o" "XLD1o"
- P3 26
- P1 6
- U4 2
-Net 48 "" ""
- U1 1
- W1 1
-Net 49 "CLK" "CLK"
- W2 1
- U1 3
- P5 B14
- U10 25
- U10 24
-Net 58 "/Swallow-ethernet_memories/XLC1i" "XLC1i"
- U10 31
- P2 5
-Net 59 "/Swallow-ethernet_memories/XLC0i" "XLC0i"
- P2 6
- U10 13
-Net 60 "/XLC0o" "XLC0o"
- U3 8
- P2 9
-Net 61 "/XLC1o" "XLC1o"
- P2 10
- U3 7
-Net 64 "" ""
- U3 6
- P2 11
-Net 66 "" ""
- U3 5
- P2 12
-Net 68 "" ""
- P2 13
- R1 1
-Net 72 "/MODE_SEL_XTAG" "MODE_SEL_XTAG"
- P1 3
- C2 2
- U2 8
-Net 73 "/TMS_BL-GND_BR" "TMS_BL-GND_BR"
- P10 1
- P3 2
-Net 74 "/GND_BL-TDO_BR" "GND_BL-TDO_BR"
- P10 2
- P3 3
-Net 75 "/TCK_BL-GND_BR" "TCK_BL-GND_BR"
- P3 4
- P10 3
-Net 76 "/GND_BL-TDI_BR" "GND_BL-TDI_BR"
- P10 4
- P3 5
-Net 77 "/DEBUG_N_BL-GND_BR" "DEBUG_N_BL-GND_BR"
- P3 8
- P10 7
-Net 79 "/Swallow-ethernet_memories/XLD2i" "XLD2i"
- U10 117
- P3 20
-Net 81 "/BR_P1N" "BR_P1N"
+ P3 23
+ P3 30
+ C5 1
+ U9 46
+ C15 2
+ U9 54
+ U10 39
+ U10 99
+ P5 B16
+ U10 116
+ P3 17
+ U10 129
+ P3 15
+ P3 24
+ P2 16
+ P2 14
+ P5 B8
+ P5 A10
+ P5 A14
+ P5 B3
+ P1 4
+ C12 2
+ C3 2
+Net 9 "/BR_P1N" "BR_P1N"
  P10 8
  P3 9
-Net 82 "/BR_P1H" "BR_P1H"
- P10 9
+Net 10 "/BR_P1H" "BR_P1H"
  P3 10
-Net 83 "/BR_P1I" "BR_P1I"
- P3 11
+ P10 9
+Net 11 "/BR_P1I" "BR_P1I"
  P10 10
-Net 84 "/BR_P1E" "BR_P1E"
+ P3 11
+Net 12 "/BR_P1E" "BR_P1E"
  P10 11
  P3 12
-Net 85 "/BR_P1J" "BR_P1J"
+Net 13 "/BR_P1J" "BR_P1J"
  P3 13
  P10 12
-Net 86 "/BR_P1D" "BR_P1D"
+Net 14 "/BR_P1D" "BR_P1D"
  P10 13
  P3 14
-Net 87 "/RESET_N_IN" "RESET_N_IN"
- C3 1
+Net 18 "" ""
+ U14 5
+ D4 2
+Net 19 "" ""
+ D3 1
+ U14 6
+Net 20 "RESET_N" "RESET_N"
+ U10 21
+ P9 1
+ U7 4
+ W13 1
+ P5 A16
+ U10 56
+ U13 1
+ U14 4
+ U6 6
+Net 21 "" ""
+ D2 1
+ U14 7
+Net 22 "" ""
+ D1 1
+ U14 8
+Net 23 "MODE3" "MODE3"
+ W5 1
+ U10 55
+ U5 4
+ U7 1
+Net 24 "/XLD0o" "XLD0o"
+ U4 1
+ U15 3
+ P3 25
+Net 26 "" ""
+ U4 3
+ P3 27
+Net 27 "/Swallow-ethernet_memories/XLD4i" "XLD4i"
+ U10 112
+ P3 18
+Net 28 "/Swallow-ethernet_memories/XLD3i" "XLD3i"
+ U10 114
+ P3 19
+Net 29 "" ""
+ P3 29
+ R2 2
+Net 30 "/DEBUG_XTAG" "DEBUG_XTAG"
+ U6 3
+ P1 11
+Net 31 "DEBUG" "DEBUG"
+ U7 3
+ U10 42
+ U6 4
+Net 36 "CLK" "CLK"
+ U1 3
+ W2 1
+ U10 24
+ U10 25
+ P5 B14
+Net 37 "" ""
+ U1 1
+ W1 1
+Net 42 "/Swallow-ethernet_memories/TDO" "TDO"
+ P1 13
+ U10 63
+Net 43 "/RESET_N_XTAG" "RESET_N_XTAG"
+ P1 15
+ U2 5
+Net 44 "/Swallow-ethernet_memories/TMS" "TMS"
+ P1 7
+ U2 7
+ U10 58
+Net 45 "/XLD1o" "XLD1o"
+ U15 6
+ P3 26
+ U4 2
+Net 46 "" ""
+ U4 4
+ P3 28
+Net 47 "/Swallow-ethernet_memories/XLD3o" "XLD3o"
+ U10 127
+ U4 5
+Net 48 "/Swallow-ethernet_memories/XLD2o" "XLD2o"
+ U4 6
+ U10 125
+Net 49 "/Swallow-ethernet_memories/XLD1o" "XLD1o"
+ U4 7
+ U10 124
+Net 50 "/Swallow-ethernet_memories/XLD0o" "XLD0o"
+ U10 122
+ U4 8
+Net 51 "/Swallow-ethernet_memories/XLD4o" "XLD4o"
+ U10 3
+ R2 1
+Net 52 "/Swallow-ethernet_memories/XLC4o" "XLC4o"
+ R1 2
+ U10 4
+Net 53 "/Swallow-ethernet_memories/XLC0o" "XLC0o"
+ U3 1
+ U10 11
+Net 54 "/Swallow-ethernet_memories/XLC1o" "XLC1o"
+ U3 2
+ U10 9
+Net 55 "/Swallow-ethernet_memories/TDI" "TDI"
+ P1 5
+ U10 62
+Net 56 "/TRST_N_BL-GND_BR" "TRST_N_BL-GND_BR"
+ P10 6
+ P3 7
+Net 57 "/RST_N_BL_BR" "RST_N_BL_BR"
+ P10 5
+ P3 6
+Net 60 "" ""
+ P2 13
+ R1 1
+Net 62 "/RST_N_L" "RST_N_L"
+ P2 25
+ P11 5
+Net 63 "" ""
+ P2 26
+ P11 4
+Net 65 "" ""
+ P2 27
+ P11 3
+Net 67 "" ""
+ P11 2
+ P2 28
+Net 69 "" ""
+ P2 29
+ P11 1
+Net 70 "/Swallow-ethernet_memories/XLC2o" "XLC2o"
+ U3 3
+ U10 8
+Net 71 "/Swallow-ethernet_memories/XLC3o" "XLC3o"
+ U10 6
+ U3 4
+Net 72 "" ""
+ P2 12
+ U3 5
+Net 73 "" ""
+ U3 6
+ P2 11
+Net 74 "/Swallow-ethernet_memories/XLC4i" "XLC4i"
+ P2 2
+ U10 38
+Net 75 "/Swallow-ethernet_memories/XLC3i" "XLC3i"
+ P2 3
+ U10 35
+Net 76 "/Swallow-ethernet_memories/XLC2i" "XLC2i"
+ U10 33
+ P2 4
+Net 77 "/Swallow-ethernet_memories/XLC1i" "XLC1i"
+ U10 31
+ P2 5
+ U15 14
+Net 78 "/Swallow-ethernet_memories/XLC0i" "XLC0i"
+ U15 11
+ U10 13
+ P2 6
+Net 79 "/XLC0o" "XLC0o"
+ U15 2
+ U3 8
+ P2 9
+Net 80 "/XLC1o" "XLC1o"
+ U15 5
+ P2 10
+ U3 7
+Net 83 "/RESET_N_IN" "RESET_N_IN"
  U6 1
-Net 88 "" ""
- U13 5
+ C3 1
+Net 84 "/Swallow-ethernet_memories/GPIO2" "GPIO2"
+ U8 2
+ U10 37
+ U14 2
+ W4 1
+Net 85 "MODE2" "MODE2"
+ U7 2
+ U5 6
+ P4 2
+ U10 53
+Net 86 "/TRST_N_L" "TRST_N_L"
+ P11 6
+ P2 24
+Net 90 "/DEBUG_N_BL-GND_BR" "DEBUG_N_BL-GND_BR"
+ P10 7
+ P3 8
+Net 91 "/GND_BL-TDI_BR" "GND_BL-TDI_BR"
+ P10 4
+ P3 5
+Net 92 "/TCK_BL-GND_BR" "TCK_BL-GND_BR"
+ P3 4
+ P10 3
+Net 93 "/GND_BL-TDO_BR" "GND_BL-TDO_BR"
+ P3 3
+ P10 2
+Net 94 "/TMS_BL-GND_BR" "TMS_BL-GND_BR"
+ P10 1
+ P3 2
+Net 101 "" ""
  C23 1
-Net 89 "+5V" "+5V"
+ U13 5
+Net 102 "+5V" "+5V"
+ U12 4
+ P7 1
  C18 1
  U11 4
  C17 1
- P7 1
- U12 4
  U11 1
  P6 1
-Net 90 "VDD" "VDD"
- U10 12
- C22 1
- U10 83
- U10 74
- C11 1
- U10 77
- U10 68
- U10 19
+Net 103 "VDD" "VDD"
  W12 1
- U10 29
+ C10 1
  U13 2
+ C9 1
+ U10 29
+ U10 19
  R5 1
- C20 1
- L2 2
- R9 1
  U10 49
  U10 59
- U10 108
  U10 101
  U10 123
+ U10 108
+ C11 1
+ C22 1
+ U10 12
+ R9 1
+ L2 2
+ C20 1
+ U10 83
+ U10 68
+ U10 74
+ U10 77
  C8 1
- C9 1
- C10 1
  C7 1
-Net 92 "/Power/1VReg" "1VReg"
- W8 1
- U12 3
+Net 105 "/Power/1VReg" "1VReg"
  L2 1
-Net 93 "/Power/1VFB" "1VFB"
- U12 5
- R9 2
- R7 1
- C20 2
+ U12 3
+ W8 1
+Net 106 "/Power/1VFB" "1VFB"
  W9 1
-Net 94 "/Power/3V3Reg" "3V3Reg"
- W7 1
+ U12 5
+ R7 1
+ R9 2
+ C20 2
+Net 107 "/Power/3V3Reg" "3V3Reg"
  L1 1
+ W7 1
  U11 3
-Net 95 "/Power/3V3FB" "3V3FB"
+Net 108 "/Power/3V3FB" "3V3FB"
  R8 2
  R6 1
+ C19 2
  U11 5
  W10 1
- C19 2
-Net 97 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1F" "P1F"
- U9 39
+Net 110 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1F" "P1F"
  U9 15
  U10 126
-Net 98 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_SS" "SPI_SS"
+ U9 39
+Net 111 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_SS" "SPI_SS"
  U10 36
  U8 1
-Net 99 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_CLK" "SPI_CLK"
+Net 112 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_CLK" "SPI_CLK"
  U10 5
  U8 6
-Net 100 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B3" "P4B3"
+Net 113 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B3" "P4B3"
  U9 21
  U10 14
-Net 101 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B2" "P4B2"
+Net 114 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B2" "P4B2"
  U9 20
  U10 16
-Net 102 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D2" "P8D2"
+Net 115 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D2" "P8D2"
  U9 22
- U9 45
  U10 76
-Net 103 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A2" "P4A2"
+ U9 45
+Net 116 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A2" "P4A2"
  U10 10
  U9 18
-Net 104 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A3" "P4A3"
+Net 117 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A3" "P4A3"
  U10 7
  U9 17
-Net 105 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A1" "P4A1"
- U9 16
+Net 118 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A1" "P4A1"
  U10 30
-Net 106 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B1" "P4B1"
+ U9 16
+Net 119 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4B1" "P4B1"
  U10 27
  U9 37
-Net 107 "" ""
- P8 2
+Net 120 "" ""
  P5 B18
-Net 108 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1H" "P1H"
- U10 89
+ P8 2
+Net 121 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1H" "P1H"
  P5 B10
-Net 109 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C1" "P4C1"
+ U10 89
+Net 122 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C1" "P4C1"
  P5 B7
  U10 115
-Net 110 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D1" "P4D1"
- U10 110
+Net 123 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D1" "P4D1"
  P5 B11
-Net 111 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D2" "P4D2"
+ U10 110
+Net 124 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D2" "P4D2"
  U10 107
  P5 A9
-Net 112 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C2" "P4C2"
- U10 96
+Net 125 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C2" "P4C2"
  P5 A6
-Net 113 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1L" "P1L"
- P5 A15
+ U10 96
+Net 126 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1L" "P1L"
  U10 67
-Net 114 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1J" "P1J"
+ P5 A15
+Net 127 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1J" "P1J"
  P5 B13
  U10 86
-Net 115 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D6" "P8D6"
- U10 97
+Net 128 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D6" "P8D6"
  U9 51
-Net 116 "+3.3V" "+3.3V"
- U5 5
- P5 B5
- U2 1
- U10 103
- U10 111
- U10 120
- U10 79
- D4 1
+ U10 97
+Net 129 "+3.3V" "+3.3V"
  C15 1
  C14 1
+ U10 79
+ U10 120
+ U10 111
+ U10 103
+ C16 1
  C13 1
  C12 1
- U2 2
- C21 1
- U2 3
- C19 1
- U2 4
- L1 2
- R8 1
- U10 50
- U8 3
- U10 22
- U10 32
- U8 7
- U8 8
- U10 1
- C5 2
- C4 2
+ W11 1
  U12 1
- U10 52
- C1 1
+ U8 8
+ U8 7
+ U8 3
+ U9 1
  U9 14
  U9 43
- U9 27
- U9 3
- U9 9
- U9 1
- U6 5
- U7 8
- U7 7
- U7 6
- U7 5
- U14 3
- W11 1
- U1 4
- U10 26
- U10 45
- U10 15
- U10 64
- U10 44
- U10 93
- U10 73
- C16 1
+ R8 1
+ L1 2
+ C19 1
+ C21 1
+ C5 2
+ C4 2
  U9 49
-Net 117 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D7" "P8D7"
+ U10 73
+ U10 93
+ U10 44
+ U10 64
+ U10 15
+ U10 45
+ U10 26
+ U6 5
+ U1 4
+ C1 1
+ P5 B5
+ U7 5
+ U7 6
+ U7 7
+ U7 8
+ U2 1
+ U2 2
+ U2 3
+ U2 4
+ U5 5
+ D4 1
+ U14 3
+ U9 3
+ U9 27
+ U10 52
+ U10 1
+ U10 32
+ U10 22
+ U10 50
+ U9 9
+Net 130 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D7" "P8D7"
  U9 53
  U10 95
-Net 118 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D5" "P8D5"
- U9 50
+Net 131 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D5" "P8D5"
  U10 98
-Net 119 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_SI" "SPI_SI"
+ U9 50
+Net 132 "/Swallow-ethernet_memories/XS1-L1-128-ports/SPI_SI" "SPI_SI"
  U10 2
  U8 5
-Net 120 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D0" "P4D0"
+Net 133 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D0" "P4D0"
  P5 B9
  U10 113
-Net 121 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C0" "P4C0"
+Net 134 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C0" "P4C0"
  U10 118
  P5 B6
-Net 122 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C3" "P4C3"
+Net 135 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4C3" "P4C3"
  P5 A7
  U10 90
-Net 123 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1G" "P1G"
- P5 A8
+Net 136 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1G" "P1G"
  U10 94
-Net 124 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D3" "P4D3"
- P5 A11
+ P5 A8
+Net 137 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4D3" "P4D3"
  U10 106
-Net 137 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1K" "P1K"
- P5 B15
+ P5 A11
+Net 150 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1K" "P1K"
  U10 69
-Net 138 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1I" "P1I"
+ P5 B15
+Net 151 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1I" "P1I"
  U10 87
  P5 B12
-Net 139 "" ""
+Net 152 "" ""
  P5 B17
  P8 1
-Net 140 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D3" "P8D3"
+Net 153 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D3" "P8D3"
  U10 75
- U9 47
  U9 35
-Net 141 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C6" "P8C6"
+ U9 47
+Net 154 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C6" "P8C6"
  U10 72
- U9 11
  U9 31
-Net 142 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C7" "P8C7"
- U9 32
+ U9 11
+Net 155 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C7" "P8C7"
  U9 13
  U10 70
-Net 143 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D0" "P8D0"
- U9 33
+ U9 32
+Net 156 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D0" "P8D0"
  U9 42
+ U9 33
  U10 82
-Net 144 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D1" "P8D1"
+Net 157 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D1" "P8D1"
  U9 44
  U10 81
  U9 34
-Net 145 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C0" "P8C0"
- U9 2
+Net 158 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C0" "P8C0"
  U9 23
+ U9 2
  U10 85
-Net 146 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D4" "P8D4"
+Net 159 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8D4" "P8D4"
+ U10 100
  U9 48
  U9 36
- U10 100
-Net 147 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A0" "P4A0"
- U9 19
+Net 160 "/Swallow-ethernet_memories/XS1-L1-128-ports/P4A0" "P4A0"
  U10 34
-Net 148 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1E" "P1E"
+ U9 19
+Net 161 "/Swallow-ethernet_memories/XS1-L1-128-ports/P1E" "P1E"
  U9 38
  U10 128
-Net 149 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C5" "P8C5"
- U10 102
- U9 30
+Net 162 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C5" "P8C5"
  U9 10
-Net 150 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C4" "P8C4"
- U10 104
- U9 29
+ U9 30
+ U10 102
+Net 163 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C4" "P8C4"
  U9 8
-Net 151 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C3" "P8C3"
- U9 26
+ U9 29
+ U10 104
+Net 164 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C3" "P8C3"
  U9 7
+ U9 26
  U10 105
-Net 152 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C2" "P8C2"
+Net 165 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C2" "P8C2"
+ U10 109
  U9 25
  U9 5
- U10 109
-Net 153 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C1" "P8C1"
+Net 166 "/Swallow-ethernet_memories/XS1-L1-128-ports/P8C1" "P8C1"
+ U10 84
  U9 24
  U9 4
- U10 84
-Net 160 "" ""
- U10 48
+Net 173 "" ""
  C6 1
  R5 2
+ U10 48
 }
 #End
