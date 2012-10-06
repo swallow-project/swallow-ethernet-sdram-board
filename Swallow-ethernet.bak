@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Oct 2012 19:19:26 BST
+EESchema Schematic File Version 2  date Sat 06 Oct 2012 19:19:37 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -648,7 +648,7 @@ Text Notes 3365 625  0    60   ~ 0
 Conn to Swallow P6 or P8
 NoConn ~ 4125 790 
 NoConn ~ 4125 2290
-Text Notes 9410 600  0    60   ~ 0
+Text Notes 9400 675  0    60   ~ 0
 Conn to P7 or P9 on Swallow
 NoConn ~ 9815 910 
 $Comp
@@ -1127,7 +1127,7 @@ F 2 "SC70-6" H 9400 6600 60  0001 C CNN
 	1    9400 6600
 	1    0    0    -1  
 $EndComp
-Text Notes 5750 7050 0    60   ~ 0
+Text Notes 5750 7100 0    60   ~ 0
 Power supply generates VDD and +3.3\nfrom +5V
 NoConn ~ 2150 5100
 NoConn ~ 2150 6000

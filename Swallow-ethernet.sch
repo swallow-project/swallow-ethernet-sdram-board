@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Oct 2012 19:19:37 BST
+EESchema Schematic File Version 2  date Sat 06 Oct 2012 19:59:37 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,6 +47,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 6750 5650 850  1200
+U 4ED15E7E
+F0 "Power" 60
+F1 "Swallow-ethernet_power_Supplies.sch" 60
+$EndSheet
 Text Label 4205 1490 0    40   ~ 0
 DEBUG_N_TL-GND_TR
 Text Label 4180 1190 0    40   ~ 0
@@ -943,12 +949,6 @@ Text Label 9285 1510 0    40   ~ 0
 TRST_N_BL-GND_BR
 Text Label 9720 1410 2    40   ~ 0
 RST_N_BL_BR
-$Sheet
-S 6750 5650 850  1200
-U 4ED15E7E
-F0 "Power" 60
-F1 "Swallow-ethernet_power_Supplies.sch" 60
-$EndSheet
 Text Label 4910 4990 0    60   ~ 0
 TDI_XTAG
 Text Label 6955 4990 0    60   ~ 0
@@ -1145,11 +1145,11 @@ $EndComp
 $Comp
 L C C2
 U 1 1 4ED12800
-P 3700 5215
-F 0 "C2" V 3600 5365 50  0000 L CNN
-F 1 "47n" V 3600 5065 50  0000 L CNN
-F 2 "SM0603" H 3700 5215 60  0001 C CNN
-	1    3700 5215
+P 3700 5050
+F 0 "C2" V 3600 5200 50  0000 L CNN
+F 1 "47n" V 3600 4900 50  0000 L CNN
+F 2 "SM0603" H 3700 5050 60  0001 C CNN
+	1    3700 5050
 	0    1    1    0   
 $EndComp
 $Comp
