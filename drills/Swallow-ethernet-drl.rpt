@@ -1,23 +1,23 @@
-Drill report for /home/harry/work/swallow-ethernet_sdram_board/Swallow-ethernet.brd
-Created on Sat 06 Oct 2012 22:08:28 BST
-Selected Drill Unit: Imperial (")
+Drill report for /home/simon/kicad/swallow-ethernet_sdram_board/Swallow-ethernet.brd
+Created on Mon 08 Oct 2012 20:52:10 BST
+Selected Drill Unit: Metric (mm)
 
 Drill report for through holes :
-T1  0.008"  0.20mm  (283 holes)
-T2  0.016"  0.40mm  (3 holes)
-T3  0.020"  0.50mm  (21 holes)
-T4  0.028"  0.70mm  (36 holes)
-T5  0.032"  0.81mm  (4 holes)
-T6  0.039"  1.00mm  (5 holes)
-T7  0.040"  1.02mm  (47 holes)
-T8  0.059"  1.50mm  (3 holes)
+T1  0.20mm  0.008"  (284 holes)
+T2  0.40mm  0.016"  (3 holes)
+T3  0.50mm  0.020"  (21 holes)
+T4  0.70mm  0.028"  (36 holes)
+T5  0.81mm  0.032"  (6 holes)
+T6  1.00mm  0.039"  (5 holes)
+T7  1.02mm  0.040"  (47 holes)
+T8  1.50mm  0.059"  (3 holes)
 
-total plated holes count 402
+total plated holes count 405
 
 
 Drill report for Not Plated through holes :
-T1  0.051"  1.30mm  (1 hole)
-T2  0.092"  2.35mm  (2 holes)
+T1  1.30mm  0.051"  (1 hole)
+T2  2.35mm  0.092"  (2 holes)
 
 total Not Plated holes count 3
 
