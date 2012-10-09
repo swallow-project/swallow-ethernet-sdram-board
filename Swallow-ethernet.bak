@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 09 Oct 2012 18:00:14 BST
+EESchema Schematic File Version 2  date Tue 09 Oct 2012 18:00:45 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -509,11 +509,11 @@ Wire Wire Line
 Wire Wire Line
 	5200 3850 5285 3850
 $Comp
-L CONN_2 P?
+L CONN_2 P14
 U 1 1 50745801
 P 4850 3950
-F 0 "P?" V 4800 3950 40  0000 C CNN
-F 1 "CONN_2" V 4900 3950 40  0000 C CNN
+F 0 "P14" V 4800 3950 40  0000 C CNN
+F 1 "GPIO_1" V 4900 3950 40  0000 C CNN
 	1    4850 3950
 	-1   0    0    -1  
 $EndComp
@@ -560,7 +560,7 @@ L CONN_2 P13
 U 1 1 50732BDA
 P 7585 3945
 F 0 "P13" V 7535 3945 40  0000 C CNN
-F 1 "GPIO" V 7635 3945 40  0000 C CNN
+F 1 "GPIO_2" V 7635 3945 40  0000 C CNN
 	1    7585 3945
 	1    0    0    -1  
 $EndComp

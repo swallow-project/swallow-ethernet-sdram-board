@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon 08 Oct 2012 20:40:13 BST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Tue 09 Oct 2012 21:46:05 BST
 
 BeginCmp
 TimeStamp = /4ED01176;
@@ -290,7 +290,14 @@ EndCmp
 BeginCmp
 TimeStamp = /50732BDA;
 Reference = P13;
-ValeurCmp = GPIO;
+ValeurCmp = GPIO_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50745801;
+Reference = P14;
+ValeurCmp = GPIO_1;
 IdModule  = SIL-2;
 EndCmp
 
