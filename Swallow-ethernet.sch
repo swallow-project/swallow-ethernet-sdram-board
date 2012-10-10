@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 09 Oct 2012 21:50:25 BST
+EESchema Schematic File Version 2  date Wed 10 Oct 2012 18:34:54 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title "noname.sch"
-Date "9 oct 2012"
+Date "10 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,6 +47,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1250 740 
+Connection ~ 1110 1260
+Wire Wire Line
+	1110 1260 1250 1260
+Wire Wire Line
+	1250 1260 1250 740 
 Wire Wire Line
 	7250 4050 7235 4050
 Wire Wire Line
@@ -156,9 +162,6 @@ Wire Wire Line
 	10795 6140 10795 5870
 Wire Wire Line
 	10795 5870 10360 5870
-Connection ~ 6975 4550
-Wire Wire Line
-	6975 4480 6975 4550
 Connection ~ 10360 5540
 Wire Wire Line
 	10360 5870 10360 5540
@@ -510,6 +513,52 @@ Wire Wire Line
 	5200 3850 5285 3850
 Wire Wire Line
 	6835 3850 7250 3850
+Wire Notes Line
+	1450 7750 1450 7150
+Wire Notes Line
+	1450 7750 3450 7750
+Wire Notes Line
+	3450 7750 3450 7150
+Wire Notes Line
+	3450 7150 1450 7150
+Text Notes 1750 7250 0    60   ~ 0
+Mechanicals
+$Comp
+L MOUNTING_HOLE H4
+U 1 1 50749C31
+P 3050 7450
+F 0 "H4" H 3050 7300 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 3050 7600 30  0000 C CNN
+	1    3050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE H3
+U 1 1 50749C2E
+P 2650 7450
+F 0 "H3" H 2650 7300 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 2650 7600 30  0000 C CNN
+	1    2650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE H2
+U 1 1 50749C2B
+P 2250 7450
+F 0 "H2" H 2250 7300 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 2250 7600 30  0000 C CNN
+	1    2250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE H1
+U 1 1 50749C25
+P 1850 7450
+F 0 "H1" H 1850 7300 60  0000 C CNN
+F 1 "MOUNTING_HOLE" H 1850 7600 30  0000 C CNN
+	1    1850 7450
+	1    0    0    -1  
+$EndComp
 $Sheet
 S 5285 2340 1550 2850
 U 4F5A2605
@@ -683,7 +732,7 @@ L 74LCX257 U15
 U 1 1 506D60B9
 P 5300 5950
 F 0 "U15" H 5300 5500 60  0000 C CNN
-F 1 "74LCX257" H 5250 6400 60  0000 C CNN
+F 1 "TS3A5018PWG4" H 5250 6400 60  0000 C CNN
 	1    5300 5950
 	1    0    0    -1  
 $EndComp
@@ -830,16 +879,6 @@ Text Label 7395 3010 0    60   ~ 0
 XLD0i
 Text Label 7395 2950 0    60   ~ 0
 XLD1i
-$Comp
-L TESTPOINT W4
-U 1 1 4F622646
-P 6975 4330
-F 0 "W4" H 6975 4280 60  0000 C CNN
-F 1 "GPIO2" H 6975 4330 20  0000 C CNN
-F 2 "TestPad-1mm" H 6975 4430 20  0001 C CNN
-	1    6975 4330
-	1    0    0    -1  
-$EndComp
 $Comp
 L TESTPOINT W3
 U 1 1 4F622642

@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 06 Oct 2012 22:02:38 BST
+PCBNEW-LibModule-V1  Wed 10 Oct 2012 18:09:16 BST
 # encoding utf-8
 $INDEX
 0204
@@ -18,6 +18,7 @@ LOGO-Swallow_bird-0.6
 LOGO-swallow-word
 LQH55P
 Logo-Swallow
+Mounting_Hole-3mm
 NCLV
 PCIe-36way
 PCIe-36way-SMD
@@ -32,6 +33,7 @@ SOT23-6
 SOT23-8
 SOT25-5
 SOT70-6
+TCX-TCSeries
 TSOP-5
 TSSOP-54
 TestPad
@@ -11917,4 +11919,65 @@ Ne 0 ""
 Po -3603 0
 $EndPAD
 $EndMODULE  PCIe-36way
+$MODULE TCX-TCSeries
+Po 0 0 0 15 5075AA79 00000000 ~~
+Li TCX-TCSeries
+Kw Oscillator
+Sc 00000000
+AR /4F5B928E
+Op 0 0 0
+At SMD
+T0 1122 768 295 295 0 49 N V 21 N "U1"
+T1 2038 876 295 295 0 74 N I 21 N "25MHz_TCX-TC_Oscillator"
+DS -768 669 -768 -669 79 21
+DS -768 669 768 669 79 21
+DS 768 669 768 -669 79 21
+DS 768 -669 -748 -669 79 21
+DC -822 834 -901 885 150 21
+$PAD
+Sh "1" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "N-000042"
+Po -433 374
+$EndPAD
+$PAD
+Sh "2" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "GND"
+Po 433 374
+$EndPAD
+$PAD
+Sh "3" R 512 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "CLK"
+Po 433 -374
+$EndPAD
+$PAD
+Sh "4" R 551 472 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po -433 -374
+$EndPAD
+$EndMODULE  TCX-TCSeries
+$MODULE Mounting_Hole-3mm
+Po 0 0 0 15 4F51289D 00000000 ~~
+Li Mounting_Hole-3mm
+Cd 3mm hole inside 5mm annulus
+Sc 00000000
+AR Mounting_Hole-3mm
+Op 0 0 0
+T0 307 -1563 600 600 0 120 N I 21 N "Mounting_Hole-3mm"
+T1 91 1445 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "" C 1969 1969 0 0 0
+Dr 1181 0 0
+At HOLE N 00F0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  Mounting_Hole-3mm
 $EndLIBRARY

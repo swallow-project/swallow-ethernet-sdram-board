@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 09 Oct 2012 21:50:25 BST
+EESchema Schematic File Version 2  date Wed 10 Oct 2012 18:34:54 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "9 oct 2012"
+Date "10 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -982,7 +982,7 @@ L S25FL064K U8
 U 1 1 4F5B5AA3
 P 7650 5900
 F 0 "U8" H 7600 5650 60  0000 C CNN
-F 1 "S25FL064K" H 7600 6150 60  0000 C CNN
+F 1 "MX25L6445EM2I-10G" H 7600 6150 60  0000 C CNN
 F 2 "SO8NL" H 7600 6250 60  0001 C CNN
 	1    7650 5900
 	1    0    0    -1  

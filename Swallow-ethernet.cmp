@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Tue 09 Oct 2012 21:46:05 BST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Wed 10 Oct 2012 18:10:12 BST
 
 BeginCmp
 TimeStamp = /4ED01176;
@@ -190,6 +190,34 @@ IdModule  = X_LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /50749C25;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50749C2B;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50749C2E;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50749C31;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Hole-3mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /4ED15E7E/4ED15F50;
 Reference = L1;
 ValeurCmp = 2.2uH;
@@ -235,7 +263,7 @@ BeginCmp
 TimeStamp = /4F5A2605/50688658;
 Reference = P5;
 ValeurCmp = Ethernet_Slice;
-IdModule  = PCIe-36way-SMD;
+IdModule  = PCIe-36way;
 EndCmp
 
 BeginCmp
@@ -354,7 +382,7 @@ BeginCmp
 TimeStamp = /4F5B928E;
 Reference = U1;
 ValeurCmp = 25MHz_ASE_CLK;
-IdModule  = ASEseries;
+IdModule  = TCX-TCSeries;
 EndCmp
 
 BeginCmp
@@ -402,7 +430,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4F5A2605/4F5B5AA3;
 Reference = U8;
-ValeurCmp = S25FL064K;
+ValeurCmp = MX25L6445EM2I-10G;
 IdModule  = SO8NL;
 EndCmp
 
@@ -451,7 +479,7 @@ EndCmp
 BeginCmp
 TimeStamp = /506D60B9;
 Reference = U15;
-ValeurCmp = 74LCX257;
+ValeurCmp = TS3A5018PWG4;
 IdModule  = TSSOP16;
 EndCmp
 
