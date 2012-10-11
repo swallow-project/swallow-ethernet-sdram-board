@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Wed 10 Oct 2012 18:10:12 BST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Thu 11 Oct 2012 16:43:22 BST
 
 BeginCmp
 TimeStamp = /4ED01176;
@@ -330,6 +330,20 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /5076E8EA;
+Reference = P15;
+ValeurCmp = Power;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5A2605/5076E89B;
+Reference = P16;
+ValeurCmp = P4B{2,3};
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F5BA11F;
 Reference = R1;
 ValeurCmp = 33R;
@@ -502,13 +516,6 @@ TimeStamp = /4F622642;
 Reference = W3;
 ValeurCmp = MEM_LED;
 IdModule  = TestPad-2mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F622646;
-Reference = W4;
-ValeurCmp = GPIO2;
-IdModule  = TestPad-1mm;
 EndCmp
 
 BeginCmp
