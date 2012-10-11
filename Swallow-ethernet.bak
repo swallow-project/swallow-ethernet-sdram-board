@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Oct 2012 17:58:04 BST
+EESchema Schematic File Version 2  date Thu 11 Oct 2012 12:36:11 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title "noname.sch"
-Date "10 oct 2012"
+Date "11 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -162,9 +162,6 @@ Wire Wire Line
 	10795 6140 10795 5870
 Wire Wire Line
 	10795 5870 10360 5870
-Connection ~ 6975 4550
-Wire Wire Line
-	6975 4480 6975 4550
 Connection ~ 10360 5540
 Wire Wire Line
 	10360 5870 10360 5540
@@ -882,16 +879,6 @@ Text Label 7395 3010 0    60   ~ 0
 XLD0i
 Text Label 7395 2950 0    60   ~ 0
 XLD1i
-$Comp
-L TESTPOINT W4
-U 1 1 4F622646
-P 6975 4330
-F 0 "W4" H 6975 4280 60  0000 C CNN
-F 1 "GPIO2" H 6975 4330 20  0000 C CNN
-F 2 "TestPad-1mm" H 6975 4430 20  0001 C CNN
-	1    6975 4330
-	1    0    0    -1  
-$EndComp
 $Comp
 L TESTPOINT W3
 U 1 1 4F622642

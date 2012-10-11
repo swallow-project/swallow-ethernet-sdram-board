@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Oct 2012 18:34:54 BST
+EESchema Schematic File Version 2  date Thu 11 Oct 2012 12:37:16 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "10 oct 2012"
+Date "11 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -203,8 +203,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 1700 8750 1700
 Wire Wire Line
-	6300 1950 6700 1950
-Wire Wire Line
 	7250 2100 6950 2100
 Wire Wire Line
 	8450 2500 8450 2450
@@ -344,8 +342,6 @@ Wire Wire Line
 	7100 2350 7100 2300
 Wire Wire Line
 	7100 2300 7250 2300
-Wire Wire Line
-	6300 2050 6700 2050
 Wire Wire Line
 	8450 1600 8750 1600
 Wire Wire Line
@@ -899,9 +895,9 @@ Text Label 8500 1600 0    60   ~ 0
 BA1
 Text Label 8500 1700 0    60   ~ 0
 BA0
-Text Label 6550 1950 2    60   ~ 0
+Text Label 6850 3200 2    60   ~ 0
 BA0
-Text Label 6550 2050 2    60   ~ 0
+Text Label 6850 3300 2    60   ~ 0
 BA1
 $Comp
 L GND #PWR038
