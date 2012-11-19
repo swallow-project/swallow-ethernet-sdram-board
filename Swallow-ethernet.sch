@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Oct 2012 12:12:08 BST
+EESchema Schematic File Version 2  date Mon 19 Nov 2012 21:12:34 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
 LIBS:Swallow-ethernet-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "noname.sch"
-Date "16 oct 2012"
+Date "19 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -985,7 +985,7 @@ F 2 "X_LED-0603" H 8145 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8660 6500 2    60   ~ 0
-RESET_N_IN
+RESET_N_XTAG
 Text Label 4455 2790 2    60   ~ 0
 XLC1o
 Text Label 4455 2890 2    60   ~ 0
@@ -1365,4 +1365,6 @@ F 2 "SM0402" H 840 1230 60  0001 C CNN
 	1    840  1230
 	1    0    0    -1  
 $EndComp
+Text Notes 700  3650 0    60   ~ 0
+V2\n==\nBugs fixed and pushed to layout\nRESET_N_IN => RESET_N_XTAG and associated wire connection\nFixed silkscreen P10 Pin 1 "GND" => "TMS"\nFixed unconnected ground link vias above P5
 $EndSCHEMATC

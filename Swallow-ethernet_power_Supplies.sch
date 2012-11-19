@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Oct 2012 12:12:08 BST
+EESchema Schematic File Version 2  date Mon 19 Nov 2012 21:12:34 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,13 @@ LIBS:xmos_custom_library
 LIBS:XS1-L1-128
 LIBS:testpoints
 LIBS:Swallow-ethernet-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "16 oct 2012"
+Date "19 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -388,16 +388,6 @@ F 2 "SM0402" H 7150 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NCP303 U13
-U 1 1 4EDA70F3
-P 8300 5950
-F 0 "U13" H 8300 5950 60  0000 C CNN
-F 1 "NCP303LSN09T1G" H 8300 6050 60  0000 C CNN
-F 2 "TSOP-5" H 8300 5950 60  0001 C CNN
-	1    8300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L NCP1529 U12
 U 1 1 4ED16424
 P 3150 5750
@@ -638,6 +628,16 @@ F 0 "C17" H 2000 2300 50  0000 L CNN
 F 1 "10u" H 2000 2100 50  0000 L CNN
 F 2 "SM0805" H 1950 2200 60  0001 C CNN
 	1    1950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NCP303 U13
+U 1 1 4EDA70F3
+P 8300 5950
+F 0 "U13" H 8300 5950 60  0000 C CNN
+F 1 "NCP303LSN09T1G" H 8300 6050 60  0000 C CNN
+F 2 "TSOP-5" H 8300 5950 60  0001 C CNN
+	1    8300 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
