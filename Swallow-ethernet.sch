@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 19 Nov 2012 21:12:34 GMT
+EESchema Schematic File Version 2  date Mon 03 Dec 2012 19:24:37 GMT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "noname.sch"
-Date "19 nov 2012"
+Date "3 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1070,7 +1070,7 @@ F 1 "+3.3V" H 10050 5370 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8650 5630 2    60   ~ 0
-MODE_SEL
+MODE_SEL_XTAG
 $Comp
 L NC7WZ07 U5
 U 1 1 4F5BD7E6
@@ -1366,5 +1366,5 @@ F 2 "SM0402" H 840 1230 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 700  3650 0    60   ~ 0
-V2\n==\nBugs fixed and pushed to layout\nRESET_N_IN => RESET_N_XTAG and associated wire connection\nFixed silkscreen P10 Pin 1 "GND" => "TMS"\nFixed unconnected ground link vias above P5
+V2\n==\nBugs fixed and pushed to layout\nRESET_N_IN => RESET_N_XTAG and associated wire connection\nMODE_SEL => MODE_SEL_XTAG and associated wire connection\nFixed silkscreen P10 Pin 1 "GND" => "TMS"\nFixed unconnected ground link vias above P5
 $EndSCHEMATC
